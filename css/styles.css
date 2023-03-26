@@ -1,0 +1,183 @@
+:root {
+  --primary-brand: rgba(77, 90, 229, 1);
+  --pressed-state: rgba(64, 75, 191, 1);
+  --dark: rgba(46, 47, 66, 1);
+  --success: rgba(49, 208, 170, 1);
+  --text: rgba(67, 68, 85, 1);
+  --white-text: rgba(255, 255, 255, 1);
+  --subtle-text: rgba(142, 143, 153, 1);
+  --accent: rgba(231, 233, 252, 1);
+  --light: rgba(244, 244, 253, 1);
+  --modal-overlay: rgba(46, 47, 66, 0.4);
+  --hero-background: rgba(46, 47, 66, 0.7);
+  --white-background: rgba(255, 255, 255, 1);
+  --modal-background: rgba(252, 252, 252, 1);
+}
+
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
+  background-color: var(--white-background);
+}
+
+/* Header */
+
+/* logo */
+
+.logo-link {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--primary-brand);
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+}
+
+.logo-studio-black {
+  color: var(--dark);
+}
+
+/* links for main-nav-link (studio, portfolio, contacts) */
+
+.main-nav-link {
+  color: var(--dark);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.main-nav-link:active,
+.main-nav-link:hover,
+.main-nav-link:focus {
+  color: var(--pressed-state);
+}
+
+.ul-markers {
+  list-style-type: none;
+}
+
+/* links for tel, email */
+
+.contact-nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contact-nav-link:hover,
+.contact-nav-link:focus {
+  color: var(--pressed-state);
+}
+
+/* Main */
+
+.hero-section {
+  background-color: var(--dark);
+}
+
+.main-title {
+  color: var(--white-text);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  height: 120px;
+  width: 496px;
+}
+
+.hidden-text {
+  visibility: hidden;
+}
+
+.subtitle {
+  color: var(--dark);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.second-subtitle {
+  color: var(--dark);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.our-team {
+  background-color: var(--light);
+}
+
+/* buttons */
+
+.button-order {
+  color: var(--white-text);
+  background-color: var(--primary-brand);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.04em;
+}
+
+.button-filter {
+  color: var(--primary-brand);
+  background-color: var(--light);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  color: var(--white-text);
+  background-color: var(--pressed-state);
+}
+
+.button-order:hover,
+.button-order:focus {
+  background-color: var(--pressed-state);
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--dark);
+}
+
+.logo-studio-white {
+  color: var(--light);
+}
+
+.footer-text {
+  color: var(--light);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
