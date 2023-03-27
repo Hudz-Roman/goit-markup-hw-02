@@ -16,7 +16,6 @@
 
 body {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -35,8 +34,6 @@ body {
   color: var(--primary-brand);
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
 }
 
@@ -50,9 +47,6 @@ body {
   color: var(--dark);
   text-decoration: none;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .main-nav-link:active,
@@ -68,12 +62,9 @@ body {
 /* links for tel, email */
 
 .contact-nav-link {
-  color: var(--text);
+  font-style: normal;
   text-decoration: none;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  color: inherit;
 }
 
 .contact-nav-link:hover,
@@ -89,11 +80,9 @@ body {
 
 .main-title {
   color: var(--white-text);
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.02em;
   height: 120px;
   width: 496px;
 }
@@ -104,11 +93,9 @@ body {
 
 .subtitle {
   color: var(--dark);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
@@ -117,8 +104,6 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.02em;
 }
 
 .our-team {
@@ -128,29 +113,21 @@ body {
 /* buttons */
 
 .button-order {
+  font-family: inherit;
+  font-weight: 500;
   color: var(--white-text);
   background-color: var(--primary-brand);
   cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  text-align: center;
-  align-items: center;
   letter-spacing: 0.04em;
 }
 
 .button-filter {
+  font-family: inherit;
   color: var(--primary-brand);
   background-color: var(--light);
-  cursor: pointer;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .button-filter:hover,
@@ -176,8 +153,4 @@ body {
 
 .footer-text {
   color: var(--light);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
