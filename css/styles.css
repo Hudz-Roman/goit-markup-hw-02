@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -27,8 +27,9 @@ body {
 
 /* logo */
 
-.logo-link {
+.link {
   font-family: 'Raleway', sans-serif;
+  font-weight: 800;
   text-transform: uppercase;
   text-decoration: none;
   color: var(--primary-brand);
@@ -55,8 +56,8 @@ body {
   color: var(--pressed-state);
 }
 
-.ul-markers {
-  list-style-type: none;
+.list {
+  list-style: none;
 }
 
 /* links for tel, email */
@@ -82,6 +83,7 @@ body {
   color: var(--white-text);
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   height: 120px;
   width: 496px;
@@ -89,12 +91,14 @@ body {
 
 .hidden-text {
   visibility: hidden;
+  letter-spacing: 0.02em;
 }
 
 .subtitle {
   color: var(--dark);
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
 }
@@ -103,7 +107,17 @@ body {
   color: var(--dark);
   font-weight: 500;
   font-size: 20px;
+  letter-spacing: 0.02em;
   line-height: 1.2;
+}
+
+.description {
+  font-size: 16px;
+  /* inherit from .body */
+}
+
+.list-item {
+  background-color: #ffffff;
 }
 
 .our-team {
@@ -113,12 +127,14 @@ body {
 /* buttons */
 
 .button-order {
-  font-family: inherit;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--white-text);
   background-color: var(--primary-brand);
   cursor: pointer;
-  letter-spacing: 0.04em;
 }
 
 .button-filter {
