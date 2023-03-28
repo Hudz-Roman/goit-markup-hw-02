@@ -153,7 +153,7 @@ body {
   cursor: pointer;
 }
 
-.button-filter {
+.btn {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -164,8 +164,8 @@ body {
   cursor: pointer;
 }
 
-.button-filter:hover,
-.button-filter:focus {
+.btn:hover,
+.btn:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
