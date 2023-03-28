@@ -44,15 +44,22 @@ body {
 
 /* links for main-nav-link (studio, portfolio, contacts) */
 
-.main-nav-link {
+.main-nav {
   color: var(--dark);
   text-decoration: none;
+  text-transform: capitalize;
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
 }
 
-.main-nav-link:active,
-.main-nav-link:hover,
-.main-nav-link:focus {
+.main-nav:active,
+.main-nav:hover,
+.main-nav:focus {
   color: var(--pressed-state);
 }
 
@@ -61,15 +68,24 @@ body {
 }
 
 /* links for tel, email */
-
-.contact-nav-link {
+.address {
   font-style: normal;
-  text-decoration: none;
-  color: inherit;
 }
 
-.contact-nav-link:hover,
-.contact-nav-link:focus {
+.contact-nav {
+  text-decoration: none;
+  color: inherit;
+  text-transform: lowercase;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contact-nav:hover,
+.contact-nav:focus {
   color: var(--pressed-state);
 }
 
