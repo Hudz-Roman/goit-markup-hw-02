@@ -132,6 +132,27 @@ body {
   /* inherit from .body */
 }
 
+.second-subtitle-img {
+  color: var(--dark);
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  text-transform: capitalize;
+}
+
+.description-img {
+  color: var(--text);
+  text-transform: capitalize;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .list-item {
   background-color: #ffffff;
 }
@@ -153,7 +174,7 @@ body {
   cursor: pointer;
 }
 
-.btn {
+.button-filter {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -164,8 +185,8 @@ body {
   cursor: pointer;
 }
 
-.btn:hover,
-.btn:focus {
+.button-filter:hover,
+.button-filter:focus {
   color: #ffffff;
   background-color: #404bbf;
 }
